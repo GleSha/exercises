@@ -9,7 +9,6 @@ import java.util.*;
  */
 public class SomeService {
 
-
     class FirstComparator implements Comparator<SomeBusinessLogicEntity> {
         @Override
         public int compare(SomeBusinessLogicEntity o1, SomeBusinessLogicEntity o2) {

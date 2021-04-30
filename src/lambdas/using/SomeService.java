@@ -4,8 +4,10 @@ import lambdas.SomeBusinessLogicEntity;
 
 import java.util.*;
 
+/**
+ * Some service class that works with SomeBusinessLogicEntity, there will be many classes like this in application
+ */
 public class SomeService {
-
 
     public List<SomeBusinessLogicEntity> getEntitiesSortedFirst() {
         List<SomeBusinessLogicEntity> entitiesFromSomeStorage = getEntitiesFromSomeStorage();
