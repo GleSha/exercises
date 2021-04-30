@@ -203,23 +203,9 @@ public class Main {
         }
     }
 
+
     /**
      * 7
-     */
-    private Map<Pair<Integer, Integer>, Integer> map = new HashMap();
-
-    public void NumArray(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
-            int sum = 0;
-            for (int j = i; j < nums.length; j++) {
-                sum += nums[j];
-                map.put(Pair.create(i, j), sum);
-            }
-        }
-    }
-
-    /**
-     * 8
      */
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
 
@@ -273,7 +259,7 @@ public class Main {
     }
 
     /**
-     * 9
+     * 8
      */
     public boolean validUtf8(int[] data) {
 
