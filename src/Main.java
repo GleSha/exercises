@@ -1,12 +1,12 @@
 import optionals.Cases;
+import strings.Strings;
 
 import java.util.*;
-import java.util.stream.Stream;
 
 public class Main {
 
     public static void main(String[] args) {
-        Cases.testMapsFilterAndGet();
+        Strings.test();
         //System.out.println("Number of combinations of getting change for " + amount + " is: " + change(coins, amount));
     }
 
