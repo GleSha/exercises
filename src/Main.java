@@ -1,9 +1,13 @@
+import optionals.Cases;
+
 import java.util.*;
+import java.util.stream.Stream;
 
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Number of combinations of getting change for " + amount + " is: " + change(coins, amount));
+        Cases.testMapsFilterAndGet();
+        //System.out.println("Number of combinations of getting change for " + amount + " is: " + change(coins, amount));
     }
 
 
