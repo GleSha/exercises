@@ -12,7 +12,7 @@ public class SomeService {
     public List<SomeBusinessLogicEntity> getEntitiesSortedFirst() {
         List<SomeBusinessLogicEntity> entitiesFromSomeStorage = getEntitiesFromSomeStorage();
         // in this case code looks more obvious (if you have a little experience)
-        entitiesFromSomeStorage.sort((o1, o2) -> Integer.compare(o1.getSomeParameter(), o2.getSomeParameter()));
+        entitiesFromSomeStorage.sort(Comparator.comparingInt(SomeBusinessLogicEntity::getSomeParameter));
         return entitiesFromSomeStorage;
     }
 
