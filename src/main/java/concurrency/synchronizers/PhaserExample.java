@@ -100,7 +100,6 @@ public class PhaserExample {
         public void run() {
             try {
                 while (phaser.getPhase() < phasesCount) {
-                    System.out.println("w: " + phaser.getPhase());
                     Thread.sleep(1000 + ThreadLocalRandom.current().nextInt(1000));
                     int rowEnd = rowStart + size;
                     int colEnd = colStart + size;
